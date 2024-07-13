@@ -8,8 +8,6 @@
     <a href="https://github.com/hemantso/clepher"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
-    ·
     <a href="https://clephertest.netlify.app/">Live version</a>
     ·
     <a href="https://github.com/hemantso/clepher/issues">Report Bug</a>
@@ -28,7 +26,6 @@
   * [Installation](#installation)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
@@ -38,10 +35,11 @@
 - Tailwind CSS for styling
 - Reusable and performant components
 
-# Home Page
-![image](./src/assets)
+# Website View
+![image](./src/assets/images/web.jpeg)
 
-
+# Mobile View
+![image](./src/assets/images/mobile.jpeg)
 ### Built With
 
 - React
@@ -49,11 +47,11 @@
 - ESLint
 - Tailwind CSS
 - Styled components
-- github-page
+- Netlify
 
 ## Live demo
 
-Deployed to Vercel - [live demo](https://fitness-five-iota.vercel.app/).
+Deployed to Vercel - [live demo](https://clephertest.netlify.app/).
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -110,11 +108,6 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
