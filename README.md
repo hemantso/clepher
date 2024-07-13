@@ -1,46 +1,127 @@
-# Getting Started with Create React App
+<p align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Alpha Vantage Stock Data Appt</h3>
 
-## Available Scripts
+  <p align="center">
+    This is a React TypeScript application that fetches stock data from the Alpha Vantage API and displays it using Tailwind CSS. The application supports selecting stock symbols and functions from dropdowns and displays the data in a paginated table.
+    <br />
+    <a href="https://github.com/hemantso/clepher"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="">View Demo</a>
+    ·
+    <a href="">Live version</a>
+    ·
+    <a href="https://github.com/hemantso/clepher/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hemantso/clepher/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-### `npm start`
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
+## About The Project
+- Fetch stock data from Alpha Vantage API
+- Display data in a responsive, paginated table
+- Tailwind CSS for styling
+- Reusable and performant components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Home Page
+![image](./src/assets)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+- React
+- TypeScript
+- ESLint
+- Tailwind CSS
+- Styled components
+- github-page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Deployed to Vercel - [live demo](https://fitness-five-iota.vercel.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow these simple steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ```sh
+    npm install npm@latest -g
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ```bash
+  git clone https://github.com/hemantso/clepher.git
+  ```
+
+2. Change directory
+
+    ```sh
+    cd clepher
+    ```
+
+3. Install NPM packages
+
+    ```sh
+    npm install
+    ```
+
+4. Start the local server
+
+    ```sh
+    npm start
+    ```
+
+<!-- ROADMAP -->
+## Roadmap
+
+Check the [issues](https://github.com/hemantso/clepher/issues).
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+👤 **Hemant soni**
+
+- Github: [@githubhandle](https://github.com/hemantso)
+- Linkedin: [linkedin](https://www.linkedin.com/in/hemantso/)
+
