@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h3 align="center">Alpha Vantage Stock Data Appt</h3>
+  <h3 align="center">Alpha Vantage Stock Data App</h3>
 
   <p align="center">
     This is a React TypeScript application that fetches stock data from the Alpha Vantage API and displays it using Tailwind CSS. The application supports selecting stock symbols and functions from dropdowns and displays the data in a paginated table.
@@ -10,7 +10,7 @@
     <br />
     <a href="">View Demo</a>
     ·
-    <a href="">Live version</a>
+    <a href="https://clephertest.netlify.app/">Live version</a>
     ·
     <a href="https://github.com/hemantso/clepher/issues">Report Bug</a>
     ·
@@ -30,7 +30,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project

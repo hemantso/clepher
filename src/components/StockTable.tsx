@@ -1,5 +1,6 @@
 import React from 'react';
 import { StockDataPoint } from '../types/alphaVantage';
+import { formatDate } from '../utils/formatDate';
 
 interface StockTableProps {
   data: [string, StockDataPoint][];
@@ -20,7 +21,7 @@ const StockTable: React.FC<StockTableProps> = React.memo(({ data }) => (
     <tbody>
       {data.map(([date, stockData], index) => (
         <tr key={date} className={`text-center ${index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}`}>
-          <td className="py-2 px-4 border-b whitespace-nowrap">{date}</td>
+          <td className="py-2 px-4 border-b whitespace-nowrap">{formatDate(date)}</td>
           <td className="py-2 px-4 border-b whitespace-nowrap">{stockData['1. open']}</td>
           <td className="py-2 px-4 border-b whitespace-nowrap">{stockData['2. high']}</td>
           <td className="py-2 px-4 border-b whitespace-nowrap">{stockData['3. low']}</td>
